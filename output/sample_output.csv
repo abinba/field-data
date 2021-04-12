@@ -1,0 +1,2 @@
+URL,first-contentful-paint,largest-contentful-paint,first-meaningful-paint,speed-index,estimated-input-latency,total-blocking-time,max-potential-fid,cumulative-layout-shift,server-response-time,first-cpu-idle,interactive,redirects,mainthread-work-breakdown,bootup-time,uses-rel-preload,network-rtt,network-server-latency,uses-long-cache-ttl
+https://zappos.com,1050,1130,1050,1892.366,76.8,600,293,0.702,587.331,2745,2847.5,230,3161.606,1499.208,0,0,0,417732.024
