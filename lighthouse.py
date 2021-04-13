@@ -2,12 +2,13 @@ import csv
 from json import JSONDecodeError
 import logging
 import random
-import requests
 import typing
-import validators
 
 from constants import FIELDS, GOOGLE_API
 from exceptions import URLValidationError
+
+import requests
+import validators
 
 
 def generate_random_number():
@@ -44,7 +45,7 @@ class GooglePageAnalysis:
             ).json()
         except JSONDecodeError as err:
             logging.warning(f"Error raised while Google API request: {err}")
-            return
+            return {}
 
         logging.info(f"Successfully received response: {str(response)[:10]}")
 

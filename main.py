@@ -1,6 +1,7 @@
-import sys
-from lighthouse import GooglePageAnalysis
 import logging
+import sys
+
+from lighthouse import GooglePageAnalysis
 
 logging.basicConfig(
     format="{asctime} {levelname:<8} {message}",
